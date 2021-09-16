@@ -1,7 +1,7 @@
 const littleYacht = {
     hornSound: "Ride of the Walkeries",
     playHorn: function() {
-      console.log(littleYacht.hornSound);
+      console.log(this.hornSound);
     }
 };
 
